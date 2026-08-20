@@ -58,7 +58,7 @@ export default function BlogPostPage() {
         <img
           src={post.image}
           alt={post.title}
-          className="mt-10 aspect-video w-full rounded-[24px] object-cover"
+          className="mt-10 w-full h-90 object-contain rounded-[24px] "
         />
 
         <div className="mt-12 space-y-12">
